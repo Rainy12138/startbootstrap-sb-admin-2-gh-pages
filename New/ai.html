@@ -20,8 +20,8 @@
   <style>
         /* Make the image fully responsive */
         .carousel-inner img {
-            width: 1000px;
-            height: 300px;
+          width: 100%;
+          height: 5;
         }
   </style>
 
@@ -30,7 +30,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: fixed; top:0px">
     <div class="container">
       <a class="navbar-brand" href="index.html">互联网大趋势</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
   </nav>
 
   <ul class="breadcrumb">
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">首页</a></li>
       <li class="active">人工智能</a></li>
     </ul>
 
@@ -54,11 +54,13 @@
             <p>在这个页面中，您将会对人工智能的各个方面有一个初步的了解</p>
     </div>
     <div class="row">
-        <div class="mx-auto">
-           <h1> 人工智能概况</h1>
-        </div>
-    <div class="passage">
-      <br>
+        <div style="margin: 0 auto">
+           <h1>人工智能概况</h1>
+          </div>
+          <div style="margin: 0 auto">
+              <img src="source/ai2.jpeg" width=100%>
+           </div> 
+      <div style="margin:5%;">
         <p>
             人工智能（英语：Artificial Intelligence，缩写为 AI）亦称机器智能，指由人制造出来的机器所表现出来的智能。通常人工智能是指通过普通计算机程序来呈现人类智能的技术。该词也指出研究这样的智能系统是否能够实现，以及如何实现。同时，有些预测则认为人类的无数职业也逐渐被其取代。
         </p>
@@ -71,19 +73,17 @@
         <p>
             AI的核心问题包括建构能够跟人类似甚至超越的推理、知识、规划、学习、交流、感知、移动和操作物体的能力等。人工智能当前仍然是该领域的长远目标[9]。当前强人工智能已经有初步成果，甚至在一些影像识别、语言分析、棋类游戏等等单方面的能力达到了超越人类的水平，而且人工智能的通用性代表着，能解决上述的问题的是一样的AI程序，无须重新开发算法就可以直接使用现有的AI完成任务，与人类的处理能力相同，但达到具备思考能力的统合强人工智能还需要时间研究，比较流行的方法包括统计方法，计算智能和传统意义的AI。当前有大量的工具应用了人工智能，其中包括搜索和数学优化、逻辑推演。而基于仿生学、认知心理学，以及基于概率论和经济学的算法等等也在逐步探索当中。 思维来源于大脑，而思维控制行为，行为需要意志去实现，而思维又是对所有数据采集的整理，相当于数据库，所以人工智能最后会演变为机器替换人类。
         </p>
+        <p>
+          文字来源——Wikipedia
+        </p>
+      </div>
     </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="row" id="context">
+        <div class="mx-auto" style="padding:5%;">
+            <h1>福州大学首届人工智能创新创业大赛</h1>
+        </div>
         <div class="mx-auto">
-            <center><h1>福州大学首届人工智能创新创业大赛</h1></center>
-
-            <div id="demo" class="carousel slide" data-ride="carousel" style="width:1000px; height:300px">
+            <div id="demo" class="carousel slide" data-ride="carousel">
  
                     <!-- 指示符 -->
                     <ul class="carousel-indicators">
@@ -92,19 +92,15 @@
                     </ul>
                    
                     <!-- 轮播图片 -->
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="source/aiPageBg.jpg">
+                    <div class="carousel-inner" style="width:100%;" >
+                      <div class="carousel-item active" style=" width:100%; height:20vw; background-image: url('source/aiPageBg.jpg')">
                       </div>
-                      <div class="carousel-item">
-                        <img src="source/pictureOfContext.jpg">
+                      <div class="carousel-item" style="width:100%; height:20vw; background-image: url('source/pictureOfContext.jpg')">
                       </div>
                       </div>
-                    </div>       
-                  </div>
-        </div>
-        <div class="passage">
-          <br>
+                      
+              </div>    
+       <div style="margin:5%;">
           <p>“在数字中国的思想源头，遇见智慧未来”。5月11日下午，乘着第二届数字中国建设峰会的东风，以“人工智能+X”多学科交叉会聚、产学研用融合的新工科创新人才培养平台，我校携手华为技术有限公司举办“华为杯”首届大学生人工智能创新创业大赛。该赛事由福州大学团委、人工智能学院、数学与计算机科学学院、人工智能研究院主办，华为技术有限公司和福州大学昆冈众创工作室全程支持。
             </p>
           <p>
@@ -116,10 +112,15 @@
           <p>
             文字来源——福大昆冈众创公共号
           </p>
+          </div>
         </div>
     </div>
+    <button type="button" class="btn btn-default btn-lg" onclick="window.location.href='index.html'">
+        <span class="glyphicon glyphicon-log-out ">返回首页</span>
+      </button>
   </div>
 
+  
   <!-- Footer -->
   <footer class="py-5 bg-dark" >
     <div class="container">
