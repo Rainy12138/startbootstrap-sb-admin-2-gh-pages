@@ -101,7 +101,7 @@ function question2(){
     $("#a1").text("人工智能");
     $("#a2").text("智能制造");
     $("#a3").text("生物医药");
-    $("#a4").text("信息科技");
+    $("#a4").text("信息服务");
     $("#a1").click(function(){
         question3();
     });
