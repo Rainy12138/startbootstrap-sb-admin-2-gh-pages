@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Modern Business - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/test.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="vendor/chart/Chart.min.js"></script>
+  
+
+  <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 5;
+        }
+  </style>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top" style="position: fixed; top:0px">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">互联网大趋势</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+      </div>
+    </div>
+  </nav>
+
+  <ul class="breadcrumb">
+      <li><a href="index.html">首页</a></li>
+      <li class="active">趣味问答</a></li>
+    </ul>
+<div class="container">
+    <div class="jumbotron">
+        <h1>趣味问答</h1>
+        <p>想知道自己有多了解互联网趋势？不如来试一试做问卷了解一下吧！帮助自己以后的人生规划和职业发展！</p>
+</div>
+</div>
+
+<div class="container" style="text-align:center;">
+<div class="row" style="border:0.5px solid #343a40; margin:1%; border-radius: 10px;">
+    
+    <div class="question"><h3 id="question">问题1:以下那个是不属于互联网范畴的竞赛</h3></div>
+    <div style="width:100%; text-align: left; margin-top: 10px"><h4 style="margin:0 0 0 6.2vw;">得分情况</h4></div>
+    <br>
+    <br>
+    <!--右半部分-->
+    
+    <div class="col-sm-4" id="chart">
+        <canvas id="myPieChart" width="" height=""></canvas>
+    </div>
+    <!--问题部分-->
+    <div class="col-sm-8" id="answer" style="text-align:center;">
+            <div class="a" id="a1">
+                   <p>水投杯</p> 
+            </div>
+            <div class="a" id="a2">
+                    <p>华为杯</p>
+            </div>
+            <div class="a" id="a3">
+                <p>互联网+</p>
+            </div>
+            <div class="a" id="a4">
+                <p>服务外包</p>
+            </div>
+    </div>
+    
+</div>
+<button type="button" class="btn btn-default btn-lg" onclick="window.location.href='index.html'">
+    <span class="glyphicon glyphicon-log-out ">返回首页</span>
+  </button>
+</div>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark" >
+<div class="container">
+  <p class="m-0 text-center text-white">Copyright &copy; 咸鱼队2019</p>
+</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/test.js"></script>
+
+
+</body>
+
+</html>
